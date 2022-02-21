@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Discord OAuth2 App</title>
+</head>
+<body>
+	<div id="info">
+		Hoi!
+	</div>
+	<a id="login" style="display: none;">Identify Yourself</a>
+<script>
+fetch("/authLink")
+.then(res=>res.text())
+.then((resp)=>{
+	//console.log(resp)
+	document.getElementById("login").href = resp
+})
+function generateRandomString() {
+	let randomString = '';
+	const randomNumber = Math.floor(Math.random() * 10);
+
+	for (let i = 0; i < 20 + randomNumber; i++) {
+		randomString += String.fromCharCode(33 + Math.floor(Math.random() * 94));
+	}
+
+	return randomString;
+}
+	window.onload = () => {
+		const fragment = new URLSearchParams(window.location.hash.slice(1));
+		const [accessToken, tokenType, state] = [fragment.get('access_token'), fragment.get('token_type'), fragment.get('state')];
+
+		if (!accessToken) {
+			const randomString = generateRandomString();
+			localStorage.setItem('oauth-state', randomString);
+
+			document.getElementById('login').href += `&state=${btoa(randomString)}`;
+			return document.getElementById('login').style.display = 'block';
+		}
+
+		fetch('https://discord.com/api/users/@me', {
+			headers: {
+				authorization: `${tokenType} ${accessToken}`,
+			},
+		})
+			.then(result => result.json())
+			.then(response => {
+				const { username, discriminator } = response;
+				document.getElementById('info').innerText += ` ${username}#${discriminator}`;
+			})
+			.catch(console.error);
+	};
+</script>
+</body>
+</html>
