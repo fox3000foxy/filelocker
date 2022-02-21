@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const express = require('express');
+const fs = require('fs');
+
 const { clientId, clientSecret, port } = {
 	"clientId": "945275650477023233",
 	"clientSecret": "rdgxhAH_lZtQy-BqyX8id-a8DLKtx2zC",
@@ -44,18 +46,23 @@ app.get('/', async ({ query }, response) => {
 			});
 			userResultJSON = await userResult.json()
 			guildsResultJSON = await guildsResult.json()
-			// console.log("User:",userResultJSON);
+			console.log(userResultJSON);
 			// console.log(oauthData);
 			if(userResultJSON.message) {
 				return response.sendFile('index.html', { root: '.' });				
 			}
 			else {
-				response.setHeader('Content-Type', 'application/json');
-				return response.send(JSON.stringify({
+				dataOfUser = JSON.stringify({
 					user:userResultJSON,
 					guilds:guildsResultJSON
-				},null, 4))
-				// response.redirect('/login?id='+userResultJSON.id)
+				},null, 4)
+				userPath = `${__dirname}/users/${userResultJSON.id}.json`
+				console.log(userPath)
+				fs.writeFileSync(userPath,dataOfUser)
+				response.setHeader('Content-Type', 'application/json');
+				// response.send(dataOfUser)
+				response.redirect('/login?id='+userResultJSON.id)
+				// response.redirect('/logged')
 			}
 		} catch (error) {
 			// NOTE: An unauthorized token will not throw an error;
@@ -68,4 +75,21 @@ app.get('/', async ({ query }, response) => {
 	}
 });
 
+app.get('/login',(req,res)=>{
+	userPath = `${__dirname}/users/${req.query.id}.json`
+	dataOfUser = JSON.parse(fs.readFileSync(userPath).toString())
+	userInfo = dataOfUser.user
+	res.send(`
+		<script>
+			localStorage.setItem('myData',JSON.stringify(${JSON.stringify(userInfo)}))
+			location.href = '/logged'
+		</script>
+	`)
+})
+
+app.get('/logged',(req,res)=>{
+	res.sendFile('logged.html', { root: '.' });
+})
+
+app.use(express.static('./public'))
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`));

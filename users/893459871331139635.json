@@ -1,0 +1,645 @@
+{
+    "user": {
+        "id": "893459871331139635",
+        "username": "Vixen",
+        "avatar": "41e632c651284634789e9da91de8237e",
+        "discriminator": "8177",
+        "public_flags": 0,
+        "flags": 0,
+        "banner": "a_d682a3dcff24bc32e270db3b61dc43af",
+        "banner_color": null,
+        "accent_color": null,
+        "locale": "fr",
+        "mfa_enabled": false,
+        "premium_type": 2
+    },
+    "guilds": [
+        {
+            "id": "422125352991850496",
+            "name": "FoxPlay 🦊",
+            "icon": "02b2c8bb8669e87c00647d068ef82ad8",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "ANIMATED_ICON",
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "643432790490218496",
+            "name": "Picsounium | EN DEV",
+            "icon": "a_cc820264c44b3fc9cddd8af75b956d9c",
+            "owner": false,
+            "permissions": 2146815985,
+            "features": [
+                "NEW_THREAD_PERMISSIONS",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1073741156337"
+        },
+        {
+            "id": "694291912995373156",
+            "name": "🦊・Fox PUB",
+            "icon": "ffd3fd42526bb36e7b6d0b62c974934f",
+            "owner": false,
+            "permissions": 104193601,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "6546644545"
+        },
+        {
+            "id": "757944023658004541",
+            "name": "Puppy’s world",
+            "icon": "6f618358f18177b2deaa1c27d15eee95",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "759340365773144096",
+            "name": "La PrismaTeam",
+            "icon": "be74979e444088a3df741af39b2f4df8",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "ANIMATED_ICON",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "INVITE_SPLASH"
+            ],
+            "permissions_new": "6546640449"
+        },
+        {
+            "id": "771786044911517696",
+            "name": "🪐・Secure",
+            "icon": "b90c44775a5f8fb8494eba8476446354",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "792681732909694976",
+            "name": "webmc",
+            "icon": "85796219f399774a0e17ab77b112b812",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "834106590473748490",
+            "name": "HealthServer",
+            "icon": "b2e947693befe7712fc7e8dcd2b78844",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [],
+            "permissions_new": "1065256078913"
+        },
+        {
+            "id": "837353714436014141",
+            "name": "La petite école des grands",
+            "icon": "eda2b977af34129d84bb3e4ef8b60cd8",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "841327974229213224",
+            "name": "Zuygui 🛠",
+            "icon": "9ab1b2d37bd5e9e1ef7ee91251886f59",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "PREVIEW_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "841697308479586384",
+            "name": "Legends",
+            "icon": "fc42ae84906d1eef8bef1686b8fcf691",
+            "owner": false,
+            "permissions": 37031745,
+            "features": [
+                "COMMUNITY",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1065188921153"
+        },
+        {
+            "id": "842333278236311573",
+            "name": "DTD - Serveur staff",
+            "icon": "ab66c7daad15a811021517d2ee2f5aa6",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "PREVIEW_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "846496831533088768",
+            "name": "BeluGANG",
+            "icon": "31979cf932a2a7bf4a44449db61dfb99",
+            "owner": false,
+            "permissions": 102828033,
+            "features": [
+                "VANITY_URL",
+                "ANIMATED_BANNER",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "VERIFIED",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PRIVATE_THREADS",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "DISCOVERABLE",
+                "INVITE_SPLASH",
+                "MEMBER_PROFILES"
+            ],
+            "permissions_new": "829031516161"
+        },
+        {
+            "id": "860929135593259048",
+            "name": "GAMEURS COMUNITY",
+            "icon": "f2a6fa1391d30e0a4e040162ce6ae190",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "862682039685873674",
+            "name": "Pablo GanG",
+            "icon": "a_2eacf14f2a252fe9e4b51df55556fcdc",
+            "owner": false,
+            "permissions": 2147483639,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "ANIMATED_ICON",
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1073741823991"
+        },
+        {
+            "id": "867427961242386462",
+            "name": "Amadev - France",
+            "icon": "8fcabb83a59b0553f4978a4d4fd627e7",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "872774726618058762",
+            "name": "Communauté de Aztek",
+            "icon": "5082c84943afc89a41295329d05f56e0",
+            "owner": false,
+            "permissions": 1341652673,
+            "features": [],
+            "permissions_new": "832417824449"
+        },
+        {
+            "id": "874325169114603632",
+            "name": "l'Atlantide",
+            "icon": "a_ffacbaa46de276fac72deb04647d18fd",
+            "owner": false,
+            "permissions": 104193601,
+            "features": [
+                "ANIMATED_ICON",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "INVITE_SPLASH"
+            ],
+            "permissions_new": "1071698533953"
+        },
+        {
+            "id": "878312119563600013",
+            "name": "Picsounium staff",
+            "icon": "8ea7ad125628c7a50995eba4cc6391e9",
+            "owner": false,
+            "permissions": 104320576,
+            "features": [],
+            "permissions_new": "1071698660928"
+        },
+        {
+            "id": "884489350509887588",
+            "name": "Tyra - Support",
+            "icon": "fdb28b2c8c25f2c51a8991dba8ee6879",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "COMMUNITY",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "885938368096124958",
+            "name": "La cour des artistes",
+            "icon": "4c5d421e667caaf9fbd4525e017df1ee",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "888524471860863028",
+            "name": "Numworks Antarctus",
+            "icon": "53a25546f924ebda558ac0ca1f9befb4",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "889548104024588358",
+            "name": "La cour des jeux vidéos",
+            "icon": "ef4a3973d86e4b1a4ba1acaa5f617e61",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "891401367413989417",
+            "name": "🌠  Ｌｉａｘｉ   V2",
+            "icon": "a_b40e3ec59f8183a8c4f307ff61f0af09",
+            "owner": false,
+            "permissions": 37080641,
+            "features": [
+                "VANITY_URL",
+                "ANIMATED_BANNER",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PRIVATE_THREADS",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "WELCOME_SCREEN_ENABLED",
+                "DISCOVERABLE",
+                "INVITE_SPLASH",
+                "MEMBER_PROFILES"
+            ],
+            "permissions_new": "657167076929"
+        },
+        {
+            "id": "893474832287674368",
+            "name": "Serveur de Fox3000",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "894614211118899230",
+            "name": "Le Monde de Roxas",
+            "icon": "a9639ddbfa71bf7f5faff22784057e63",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "ANIMATED_ICON",
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "895002031167770714",
+            "name": "Aventuros",
+            "icon": "3ed7e185888b38f85352949e4344c303",
+            "owner": false,
+            "permissions": 641556432,
+            "features": [
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "518185115600"
+        },
+        {
+            "id": "895004182627614720",
+            "name": "Aventuros - Staff",
+            "icon": "08f1510c064e1e874436fe9358ce96d5",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "895024528542023750",
+            "name": "Commu d'Holly❃Gold",
+            "icon": "63d188132e5e1c57dc43157e81196146",
+            "owner": false,
+            "permissions": 2146959347,
+            "features": [
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "266287448051"
+        },
+        {
+            "id": "896413138029789214",
+            "name": "La cour des langues",
+            "icon": "8782586d95ea8da6201001e750dd8552",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "896768991006195732",
+            "name": "DtD - Serveur friponnesque 2.0",
+            "icon": "84b10246471b8ae0e6ec697d232e3410",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "897196699183886366",
+            "name": "☁ ꧁ 𝕁𝕩𝕤𝕥_𝕄𝕒𝕪. シ ꧂ ☁",
+            "icon": "48aec166cdf4aa215ddb32842db39836",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "WELCOME_SCREEN_ENABLED"
+            ],
+            "permissions_new": "1065256078913"
+        },
+        {
+            "id": "901576410374758420",
+            "name": "Vixen's Studios",
+            "icon": "b31aa789d614373888a02d1937ac8fcd",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "903261698708869120",
+            "name": "Serveur de Kriss53",
+            "icon": "6053c93203cf5f0fafe0798a56c734f1",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "904869461285285989",
+            "name": "・ DaxxyGang ・",
+            "icon": "93e97a40f50a48fa1302d6da1d74fe9a",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "905829472119435285",
+            "name": "Discord.jar - Imagine a bot",
+            "icon": "17b4ef6313cb75a72ba76ef0281361af",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "906583580816314428",
+            "name": "Vixen, superstar",
+            "icon": "6c4c0277e2ffa35acd9819bd9e42f9ff",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "906943186344222783",
+            "name": "Serveur de test Agent",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "912683207940517939",
+            "name": "Soutien Jeune",
+            "icon": "32d2e3d271893563a8cbe192b84fd463",
+            "owner": false,
+            "permissions": 133689031,
+            "features": [],
+            "permissions_new": "1005156036295"
+        },
+        {
+            "id": "913067280693334056",
+            "name": "Gokiing Studios",
+            "icon": "7369de2d96025269a849b0a0311f26a9",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "917532102994575480",
+            "name": "Ratiper!!",
+            "icon": "939b7be549ee69e006ba0904bfe8909a",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "922179783188705291",
+            "name": "Twiiqzou | Dev",
+            "icon": "f31ee5024df4033b0ee3791b9305ea51",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "922424726633193482",
+            "name": "Anarchy - Everyone is Admin",
+            "icon": "1c784a8bd027ed9d48b82265d79e5151",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "925789709203013682",
+            "name": ". . ☕・ Choka'Shop",
+            "icon": "cd40ae9435b28aaa6b09e0c1a7767db8",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "926944291497074688",
+            "name": "🍜 Pʟᴀᴄᴇ Aᴜx Aɴɪᴍᴇs 🍱",
+            "icon": "f012648e191c508f1555b96f41e19217",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "929747311851089920",
+            "name": "Alerte à la TNT",
+            "icon": "9ff632e8fddfc0701592deeb117d9a4a",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "929797013351051304",
+            "name": "Communication",
+            "icon": "753260adcb9a0a13d3724cad08537a6c",
+            "owner": false,
+            "permissions": 401993414,
+            "features": [],
+            "permissions_new": "2188687830726"
+        },
+        {
+            "id": "931117836720554004",
+            "name": "Concept en cours...",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "931917087566356601",
+            "name": "Le marché des émojis",
+            "icon": "25f5bd17d89c993969c3138d37469b7a",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "934199972692389919",
+            "name": "𝙎𝙃𝙄𝙑𝘼 𝙎𝙐𝙋𝙍𝙀𝙈𝘼𝘾𝙔",
+            "icon": "441641e63376eec8e1640d6650087bc1",
+            "owner": false,
+            "permissions": 37211713,
+            "features": [],
+            "permissions_new": "1071631552065"
+        },
+        {
+            "id": "936938982749667328",
+            "name": "❌☠one🗺piece☠❌",
+            "icon": "36d293c65640bccf2b97176a774741fa",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        }
+    ]
+}

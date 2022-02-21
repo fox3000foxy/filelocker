@@ -1,0 +1,35 @@
+<!-- https://cdn.discordapp.com/avatars/893459871331139635/41e632c651284634789e9da91de8237e.webp?size=4096 -->
+<html>
+	<head>
+		<script>
+			const user = JSON.parse(localStorage.myData)
+			const avatarLink = `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp?size=4096`
+			
+			window.onload = ()=>{
+				document.getElementById('avatar').src = avatarLink
+				document.getElementById('name').innerText = user.username+"#"+user.discriminator
+			}
+		</script>
+		<style>
+			@font-face {
+				 font-family: "Whitney";
+				 src: url("/assets/whitneymedium.otf");
+			}
+		</style>
+	</head>
+	<body bgColor="#2c2f33">
+		<header style="background-color:#23272a; padding:10px">
+			<div id="userGroup" style="text-align:center">
+				<img id="avatar" style="
+					width:64px;
+					border-radius:32px
+				"><br>
+				<span id="name" style="
+					color:white;
+					font-style:bold;
+					font-family:Whitney
+				"></span>
+			</div>
+		</header>
+	</body>
+</html>
