@@ -21,15 +21,15 @@
             "owner": false,
             "permissions": 104189505,
             "features": [
-                "THREE_DAY_THREAD_ARCHIVE",
-                "PREVIEW_ENABLED",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "WELCOME_SCREEN_ENABLED",
-                "INVITE_SPLASH",
                 "COMMUNITY",
+                "THREADS_ENABLED",
+                "INVITE_SPLASH",
+                "PREVIEW_ENABLED",
                 "NEWS",
-                "THREADS_ENABLED"
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "1071698529857"
         },
@@ -40,11 +40,11 @@
             "owner": false,
             "permissions": 2146815985,
             "features": [
-                "NEW_THREAD_PERMISSIONS",
                 "WELCOME_SCREEN_ENABLED",
                 "COMMUNITY",
-                "NEWS",
-                "THREADS_ENABLED"
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS"
             ],
             "permissions_new": "1073741156337"
         },
@@ -76,9 +76,9 @@
             "owner": false,
             "permissions": 104189505,
             "features": [
+                "INVITE_SPLASH",
                 "ANIMATED_ICON",
-                "THREE_DAY_THREAD_ARCHIVE",
-                "INVITE_SPLASH"
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "6546640449"
         },
@@ -123,9 +123,9 @@
             "permissions": 2147483647,
             "features": [
                 "COMMUNITY",
+                "THREADS_ENABLED",
                 "WELCOME_SCREEN_ENABLED",
-                "NEWS",
-                "THREADS_ENABLED"
+                "NEWS"
             ],
             "permissions_new": "2199023255551"
         },
@@ -136,12 +136,12 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
+                "COMMUNITY",
                 "MEMBER_VERIFICATION_GATE_ENABLED",
                 "THREADS_ENABLED",
-                "COMMUNITY",
                 "NEW_THREAD_PERMISSIONS",
-                "NEWS",
-                "PREVIEW_ENABLED"
+                "PREVIEW_ENABLED",
+                "NEWS"
             ],
             "permissions_new": "2199023255551"
         },
@@ -154,8 +154,8 @@
             "features": [
                 "COMMUNITY",
                 "NEW_THREAD_PERMISSIONS",
-                "NEWS",
-                "THREADS_ENABLED"
+                "THREADS_ENABLED",
+                "NEWS"
             ],
             "permissions_new": "1065188921153"
         },
@@ -166,13 +166,13 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "THREADS_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
                 "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "WELCOME_SCREEN_ENABLED",
+                "THREADS_ENABLED",
                 "NEW_THREAD_PERMISSIONS",
-                "NEWS",
-                "PREVIEW_ENABLED"
+                "PREVIEW_ENABLED",
+                "NEWS"
             ],
             "permissions_new": "2199023255551"
         },
@@ -183,23 +183,23 @@
             "owner": false,
             "permissions": 102828033,
             "features": [
-                "VANITY_URL",
-                "ANIMATED_BANNER",
-                "ENABLED_DISCOVERABLE_BEFORE",
-                "VERIFIED",
-                "COMMUNITY",
-                "NEWS",
-                "THREE_DAY_THREAD_ARCHIVE",
-                "PRIVATE_THREADS",
-                "SEVEN_DAY_THREAD_ARCHIVE",
-                "BANNER",
-                "PREVIEW_ENABLED",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "ROLE_ICONS",
                 "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "VANITY_URL",
+                "ENABLED_DISCOVERABLE_BEFORE",
                 "DISCOVERABLE",
+                "PRIVATE_THREADS",
                 "INVITE_SPLASH",
-                "MEMBER_PROFILES"
+                "PREVIEW_ENABLED",
+                "BANNER",
+                "NEWS",
+                "ANIMATED_BANNER",
+                "COMMUNITY",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "MEMBER_PROFILES",
+                "ROLE_ICONS",
+                "VERIFIED",
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "829031516161"
         },
@@ -219,16 +219,16 @@
             "owner": false,
             "permissions": 2147483639,
             "features": [
-                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "THREADS_ENABLED",
+                "INVITE_SPLASH",
                 "NEW_THREAD_PERMISSIONS",
                 "PREVIEW_ENABLED",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "ANIMATED_ICON",
-                "WELCOME_SCREEN_ENABLED",
-                "INVITE_SPLASH",
-                "COMMUNITY",
                 "NEWS",
-                "THREADS_ENABLED"
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "1073741823991"
         },
@@ -240,8 +240,8 @@
             "permissions": 2147483647,
             "features": [
                 "COMMUNITY",
-                "NEWS",
-                "THREADS_ENABLED"
+                "THREADS_ENABLED",
+                "NEWS"
             ],
             "permissions_new": "2199023255551"
         },
@@ -261,9 +261,9 @@
             "owner": false,
             "permissions": 104193601,
             "features": [
+                "INVITE_SPLASH",
                 "ANIMATED_ICON",
-                "THREE_DAY_THREAD_ARCHIVE",
-                "INVITE_SPLASH"
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "1071698533953"
         },
@@ -285,8 +285,8 @@
             "features": [
                 "COMMUNITY",
                 "NEW_THREAD_PERMISSIONS",
-                "NEWS",
-                "THREADS_ENABLED"
+                "THREADS_ENABLED",
+                "NEWS"
             ],
             "permissions_new": "1071698529857"
         },
@@ -323,27 +323,27 @@
         {
             "id": "891401367413989417",
             "name": "🌠  Ｌｉａｘｉ   V2",
-            "icon": "a_b40e3ec59f8183a8c4f307ff61f0af09",
+            "icon": "a_8e496c4616fed678022eb5716a1a70f4",
             "owner": false,
             "permissions": 37080641,
             "features": [
-                "VANITY_URL",
-                "ANIMATED_BANNER",
-                "ENABLED_DISCOVERABLE_BEFORE",
-                "COMMUNITY",
-                "NEWS",
-                "THREE_DAY_THREAD_ARCHIVE",
-                "PRIVATE_THREADS",
-                "SEVEN_DAY_THREAD_ARCHIVE",
-                "BANNER",
-                "PREVIEW_ENABLED",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "ROLE_ICONS",
                 "ANIMATED_ICON",
-                "WELCOME_SCREEN_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "VANITY_URL",
+                "ENABLED_DISCOVERABLE_BEFORE",
                 "DISCOVERABLE",
+                "PRIVATE_THREADS",
                 "INVITE_SPLASH",
-                "MEMBER_PROFILES"
+                "PREVIEW_ENABLED",
+                "BANNER",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_BANNER",
+                "COMMUNITY",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "MEMBER_PROFILES",
+                "ROLE_ICONS",
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "657167076929"
         },
@@ -367,14 +367,14 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "THREE_DAY_THREAD_ARCHIVE",
-                "PREVIEW_ENABLED",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "WELCOME_SCREEN_ENABLED",
-                "INVITE_SPLASH",
                 "COMMUNITY",
-                "NEWS"
+                "INVITE_SPLASH",
+                "PREVIEW_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
             ],
             "permissions_new": "2199023255551"
         },
@@ -452,10 +452,10 @@
             "owner": true,
             "permissions": 2147483647,
             "features": [
-                "PREVIEW_ENABLED",
                 "MEMBER_VERIFICATION_GATE_ENABLED",
                 "WELCOME_SCREEN_ENABLED",
                 "COMMUNITY",
+                "PREVIEW_ENABLED",
                 "NEWS"
             ],
             "permissions_new": "2199023255551"
@@ -476,10 +476,10 @@
             "owner": false,
             "permissions": 104320577,
             "features": [
-                "PREVIEW_ENABLED",
                 "MEMBER_VERIFICATION_GATE_ENABLED",
                 "WELCOME_SCREEN_ENABLED",
                 "COMMUNITY",
+                "PREVIEW_ENABLED",
                 "NEWS"
             ],
             "permissions_new": "1071698660929"
