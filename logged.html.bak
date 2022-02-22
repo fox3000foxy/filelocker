@@ -42,7 +42,7 @@
 				let userItem = document.createElement('div')
 				if(mode=="add")
 					userItem.onclick = ()=>{
-						//let selectedUserItem = document.createElement('div');
+						<!-- let selectedUserItem = document.createElement('div'); -->
 						document.getElementById("usersListSelected").innerHTML += `
 							<div style="padding-top:16px">
 								<img src="${user.avatarLink}?size=16" style="width:32px;border-radius:16px;margin-right:4px" class="img-valign">

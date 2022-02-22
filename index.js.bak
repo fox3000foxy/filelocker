@@ -155,7 +155,7 @@ io.on('connection', (socket) => {
 			let username = `${r.user.username}#${r.user.discriminator}`;
 			// console.log(username.indexOf(name))
 			if(username.toLowerCase().indexOf(name.toLowerCase())!=-1)
-				users.push({username,avatarLink:r.user.avatarURL(),id:r.user.id});
+				users.push({username,avatarLink:r.user.avatarURL()});
 		  });
 		  io.emit('search',{id,users})
 	  })

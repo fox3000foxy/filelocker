@@ -22,14 +22,14 @@
             "permissions": 104189505,
             "features": [
                 "ANIMATED_ICON",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
-                "COMMUNITY",
-                "THREADS_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
                 "INVITE_SPLASH",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "PREVIEW_ENABLED",
+                "THREADS_ENABLED",
                 "NEWS",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "1071698529857"
         },
@@ -40,11 +40,11 @@
             "owner": false,
             "permissions": 2146815985,
             "features": [
-                "WELCOME_SCREEN_ENABLED",
-                "COMMUNITY",
-                "THREADS_ENABLED",
                 "NEW_THREAD_PERMISSIONS",
-                "NEWS"
+                "THREADS_ENABLED",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "1073741156337"
         },
@@ -55,8 +55,8 @@
             "owner": false,
             "permissions": 104193601,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "6546644545"
         },
@@ -76,9 +76,9 @@
             "owner": false,
             "permissions": 104189505,
             "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
                 "INVITE_SPLASH",
-                "ANIMATED_ICON",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "ANIMATED_ICON"
             ],
             "permissions_new": "6546640449"
         },
@@ -89,8 +89,8 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -101,8 +101,8 @@
             "owner": false,
             "permissions": 104189505,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "1071698529857"
         },
@@ -122,10 +122,10 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
                 "THREADS_ENABLED",
+                "NEWS",
                 "WELCOME_SCREEN_ENABLED",
-                "NEWS"
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -136,12 +136,12 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "THREADS_ENABLED",
                 "NEW_THREAD_PERMISSIONS",
                 "PREVIEW_ENABLED",
-                "NEWS"
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -152,10 +152,10 @@
             "owner": false,
             "permissions": 37031745,
             "features": [
-                "COMMUNITY",
-                "NEW_THREAD_PERMISSIONS",
                 "THREADS_ENABLED",
-                "NEWS"
+                "NEWS",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY"
             ],
             "permissions_new": "1065188921153"
         },
@@ -166,13 +166,13 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
-                "THREADS_ENABLED",
                 "NEW_THREAD_PERMISSIONS",
                 "PREVIEW_ENABLED",
-                "NEWS"
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -183,23 +183,23 @@
             "owner": false,
             "permissions": 102828033,
             "features": [
-                "ANIMATED_ICON",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "VANITY_URL",
-                "ENABLED_DISCOVERABLE_BEFORE",
-                "DISCOVERABLE",
-                "PRIVATE_THREADS",
+                "SEVEN_DAY_THREAD_ARCHIVE",
                 "INVITE_SPLASH",
-                "PREVIEW_ENABLED",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "VERIFIED",
+                "VANITY_URL",
                 "BANNER",
                 "NEWS",
                 "ANIMATED_BANNER",
-                "COMMUNITY",
-                "SEVEN_DAY_THREAD_ARCHIVE",
                 "MEMBER_PROFILES",
+                "PREVIEW_ENABLED",
                 "ROLE_ICONS",
-                "VERIFIED",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "PRIVATE_THREADS",
+                "DISCOVERABLE",
+                "ANIMATED_ICON",
+                "COMMUNITY"
             ],
             "permissions_new": "829031516161"
         },
@@ -220,15 +220,15 @@
             "permissions": 2147483639,
             "features": [
                 "ANIMATED_ICON",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
-                "COMMUNITY",
-                "THREADS_ENABLED",
-                "INVITE_SPLASH",
                 "NEW_THREAD_PERMISSIONS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "INVITE_SPLASH",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "PREVIEW_ENABLED",
+                "THREADS_ENABLED",
                 "NEWS",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "1073741823991"
         },
@@ -239,9 +239,9 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
                 "THREADS_ENABLED",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -261,9 +261,9 @@
             "owner": false,
             "permissions": 104193601,
             "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
                 "INVITE_SPLASH",
-                "ANIMATED_ICON",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "ANIMATED_ICON"
             ],
             "permissions_new": "1071698533953"
         },
@@ -283,10 +283,10 @@
             "owner": false,
             "permissions": 104189505,
             "features": [
-                "COMMUNITY",
-                "NEW_THREAD_PERMISSIONS",
                 "THREADS_ENABLED",
-                "NEWS"
+                "NEWS",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY"
             ],
             "permissions_new": "1071698529857"
         },
@@ -315,8 +315,8 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -327,23 +327,23 @@
             "owner": false,
             "permissions": 37080641,
             "features": [
+                "SEVEN_DAY_THREAD_ARCHIVE",
                 "ANIMATED_ICON",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "THREE_DAY_THREAD_ARCHIVE",
                 "MEMBER_VERIFICATION_GATE_ENABLED",
                 "VANITY_URL",
-                "ENABLED_DISCOVERABLE_BEFORE",
-                "DISCOVERABLE",
-                "PRIVATE_THREADS",
-                "INVITE_SPLASH",
-                "PREVIEW_ENABLED",
                 "BANNER",
                 "NEWS",
-                "WELCOME_SCREEN_ENABLED",
                 "ANIMATED_BANNER",
-                "COMMUNITY",
-                "SEVEN_DAY_THREAD_ARCHIVE",
                 "MEMBER_PROFILES",
+                "PREVIEW_ENABLED",
                 "ROLE_ICONS",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "PRIVATE_THREADS",
+                "DISCOVERABLE",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "657167076929"
         },
@@ -354,9 +354,9 @@
             "owner": true,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
+                "NEWS",
                 "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
-                "NEWS"
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -368,13 +368,13 @@
             "permissions": 2147483647,
             "features": [
                 "ANIMATED_ICON",
-                "MEMBER_VERIFICATION_GATE_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
-                "COMMUNITY",
+                "THREE_DAY_THREAD_ARCHIVE",
                 "INVITE_SPLASH",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
                 "PREVIEW_ENABLED",
                 "NEWS",
-                "THREE_DAY_THREAD_ARCHIVE"
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -385,9 +385,9 @@
             "owner": false,
             "permissions": 641556432,
             "features": [
-                "COMMUNITY",
+                "NEWS",
                 "WELCOME_SCREEN_ENABLED",
-                "NEWS"
+                "COMMUNITY"
             ],
             "permissions_new": "518185115600"
         },
@@ -407,9 +407,9 @@
             "owner": false,
             "permissions": 2146959347,
             "features": [
-                "COMMUNITY",
+                "NEWS",
                 "WELCOME_SCREEN_ENABLED",
-                "NEWS"
+                "COMMUNITY"
             ],
             "permissions_new": "266287448051"
         },
@@ -429,8 +429,8 @@
             "owner": true,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -453,10 +453,10 @@
             "permissions": 2147483647,
             "features": [
                 "MEMBER_VERIFICATION_GATE_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
-                "COMMUNITY",
                 "PREVIEW_ENABLED",
-                "NEWS"
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -477,10 +477,10 @@
             "permissions": 104320577,
             "features": [
                 "MEMBER_VERIFICATION_GATE_ENABLED",
-                "WELCOME_SCREEN_ENABLED",
-                "COMMUNITY",
                 "PREVIEW_ENABLED",
-                "NEWS"
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY"
             ],
             "permissions_new": "1071698660929"
         },
@@ -491,8 +491,8 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -557,8 +557,8 @@
             "owner": true,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
@@ -569,9 +569,9 @@
             "owner": false,
             "permissions": 104320577,
             "features": [
-                "COMMUNITY",
+                "NEWS",
                 "WELCOME_SCREEN_ENABLED",
-                "NEWS"
+                "COMMUNITY"
             ],
             "permissions_new": "1071698660929"
         },
@@ -582,8 +582,8 @@
             "owner": false,
             "permissions": 2147483647,
             "features": [
-                "COMMUNITY",
-                "NEWS"
+                "NEWS",
+                "COMMUNITY"
             ],
             "permissions_new": "2199023255551"
         },
