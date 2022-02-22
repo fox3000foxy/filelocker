@@ -94,6 +94,12 @@ app.get('/logged',(req,res)=>{
 	res.sendFile('logged.html', { root: '.' });
 })
 
+app.post('/file/:fileName',function(req,res){
+	// console.log(req.body.userId)	
+	// if(req)
+	res.send('TODO: Add LIST comprehension !')
+})
+
 app.post('/upload', function(req, res) {
   console.log(req.files.foo); // the uploaded file object
   if(req.files.foo){
@@ -105,18 +111,31 @@ app.post('/upload', function(req, res) {
 	LIST.push({
 		fileName,
 		ownerId: req.body.id,
-		expires: (+new Date) + 10000,
+		expires: (+new Date) + 86400000,
 		canView: JSON.parse(req.body.bar)
 	})
 	//1 DAY: 86400000 = 1000*60*60*24
 	fs.writeFileSync(__dirname + "/uploadList.json",JSON.stringify(LIST))
 	//Write uploaded file
 	fs.writeFileSync(`${__dirname}/files/${fileName}`,Buffer.from(req.files.foo.data))
-	res.redirect('/logged?successful')
+	res.redirect('/logged?successful&fileName='+fileName)
   }
   else
 	res.redirect('/logged?error')
 });
+
+app.get('/file/:fileName',(req,res)=>{
+	res.send(`
+		<form method="post" action="/file/${req.params.fileName}" encType="multipart/form-data">
+			<input name="userId">
+			<input type="submit">
+		</form>
+		<script>
+			document.forms[0].userId.value = JSON.parse(localStorage.myData).id
+			document.forms[0].submit()
+		</script>
+	`)
+})
 
 //Expires delete
 setInterval(()=>{

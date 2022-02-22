@@ -22,6 +22,11 @@
 						}
 					})
 				}
+				document.forms.uploadForm.foo.onchange = (ev)=>{
+					//document.getElementById('uploadFormSubmit').removeAttribute('disabled')
+					document.getElementById('fileName').innerText = ev.target.files[0].name
+					document.getElementById('userSelector').style.visibility = "visible"
+				}
 			}
 			myId = (+new Date)// + Math.round(Math.random * 256)
 			socket.on('search',({id,users})=>{
@@ -71,14 +76,6 @@
 					`
 				}
 				return userItem;
-			}
-			
-			function submitting(){
-				if(document.forms.uploadForm.foo.files.length == 0) {
-					event.preventDefault()
-					alert("Please select a file to upload.")
-					return false;
-				}
 			}
 		</script>
 		<style>
@@ -139,17 +136,19 @@
 			<input type="hidden" name="id" id="userId"><br><br>
 			<input type="file" name="foo" hidden>
 			<input name="bar" hidden>
-			<span id="fileName">Aucun fichier</span><br>
+			<span id="fileName">Aucun fichier</span><br><br>
 			<button class="blue" onclick="
 				event.preventDefault();
 				document.forms.uploadForm.foo.click()
-			" style="width:150px">Importer un fichier</button><br><br>
-			<br><br>
-			<input id="searchBar">
-			<div id="usersList" style="text-align:center"></div>
-			<table id="usersListSelected" style="height:280px;text-align:center"><tr></tr></table>
-			<br><br>
-			<button class="red" onclick="this.form.submit()" style="width:150px">Envoyer</button>
+			" style="width:150px">Importer un fichier</button><br><br><br>
+			
+			<div id="userSelector" style="visibility:hidden">
+				<input id="searchBar">
+				<div id="usersList" style="text-align:center"></div>
+				<table id="usersListSelected" style="height:280px;text-align:center"><tr></tr></table>
+				<br><br>
+				<button class="red" id="uploadFormSubmit" style="width:150px">Envoyer</button>
+			</div>
 		</form>
 		<img src="/assets/outgoing.png" style="
 			width:64px;
