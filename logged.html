@@ -30,7 +30,7 @@
 					//console.log(users)					
 					document.getElementById('usersList').innerText = ""
 					users.forEach(user=>{
-						document.getElementById('usersList').appendChild(generateUser(user,"add"))
+						document.getElementById('usersList').appendChild(generateUser(user))
 					})
 					if(users.length==0)
 						document.getElementById('usersList').innerText = "Aucun résultat"
@@ -38,20 +38,30 @@
 			})
 			
 			userListAdded = []
-			function generateUser(user,mode) {
+			function generateUser(user) {
 				let userItem = document.createElement('div')
-				if(mode=="add")
-					userItem.onclick = ()=>{
-						//let selectedUserItem = document.createElement('div');
-						document.getElementById("usersListSelected").innerHTML += `
-							<div style="padding-top:16px">
-								<img src="${user.avatarLink}?size=16" style="width:32px;border-radius:16px;margin-right:4px" class="img-valign">
-								<span>${user.username}<\/span>
-							<\/div>
-						`
-						userListAdded.push(user.id)
-						userItem.remove()
+				userItem.onclick = ()=>{
+					let selectedUserItem = document.createElement('div');
+					selectedUserItem.onclick = ()=>{
+						selectedUserItem.remove()
+						userListAdded.splice(userListAdded.indexOf(user.id),1)
+						document.forms.uploadForm.bar.value = JSON.stringify(userListAdded)
+						socket.emit('search',{
+								name:document.getElementById('searchBar').value,
+								id: myId
+						})
 					}
+					selectedUserItem.innerHTML = `
+						<div style="padding-top:16px">
+							<img src="${user.avatarLink}?size=16" style="width:32px;border-radius:16px;margin-right:4px" class="img-valign">
+							<span>${user.username}<\/span>
+						<\/div>
+					`
+					document.getElementById("usersListSelected").appendChild(selectedUserItem)
+					userListAdded.push(user.id)
+					document.forms.uploadForm.bar.value = JSON.stringify(userListAdded)
+					userItem.remove()
+				}
 				if(userListAdded.indexOf(user.id)==-1) {
 					userItem.innerHTML = `
 						<div style="padding-top:16px">
@@ -61,6 +71,14 @@
 					`
 				}
 				return userItem;
+			}
+			
+			function submitting(){
+				if(document.forms.uploadForm.foo.files.length == 0) {
+					event.preventDefault()
+					alert("Please select a file to upload.")
+					return false;
+				}
 			}
 		</script>
 		<style>
@@ -116,9 +134,11 @@
 				"></span><br><br>
 			</div>
 		</header>
-		<form method="POST" action="/upload" encType="multipart/form-data" name="uploadForm">
+		<form method="POST" action="/upload" encType="multipart/form-data" name="uploadForm"
+		onsubmit='submitting()'>
 			<input type="hidden" name="id" id="userId"><br><br>
 			<input type="file" name="foo" hidden>
+			<input name="bar" hidden>
 			<span id="fileName">Aucun fichier</span><br>
 			<button class="blue" onclick="
 				event.preventDefault();

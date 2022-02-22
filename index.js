@@ -105,7 +105,8 @@ app.post('/upload', function(req, res) {
 	LIST.push({
 		fileName,
 		ownerId: req.body.id,
-		expires: (+new Date) + 10000
+		expires: (+new Date) + 10000,
+		canView: JSON.parse(req.body.bar)
 	})
 	//1 DAY: 86400000 = 1000*60*60*24
 	fs.writeFileSync(__dirname + "/uploadList.json",JSON.stringify(LIST))
