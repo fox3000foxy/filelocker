@@ -238,7 +238,7 @@ async function getPP(id) {
 	return fetch(avatarURL).then(function(res) {return buffer = res.buffer().then(res2=>{return res2})})
 }
 
-bot.login('OTQ1Mjc1NjUwNDc3MDIzMjMz.YhNyjQ.ZWm24Yi2SmSitA-iQNZVIcELhk0')
+bot.login('OTQ1Mjc1NjUwNDc3MDIzMjMz.YhNyjQ.qzP6heM0QHeCBRGTywvbi575V7I')
 
 io.on('connection', (socket) => {
   // console.log('a user connected');
