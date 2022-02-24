@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<script src="/socket.io/socket.io.js"></script>
+		<style>
+			@font-face {
+				 font-family: "Whitney";
+				 src: url("/assets/whitneymedium.otf");
+			}
+			
+			#usersList, input, #usersListSelected{
+				--font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+				--text-normal: #dcddde;
+				--deprecated-text-input-bg: rgba(0,0,0,0.1);
+				--deprecated-text-input-border: rgba(0,0,0,0.3);
+				user-select: none;
+				pointer-events: all;
+				-webkit-box-direction: normal;
+				font-weight: 400;
+				font-family: var(--font-primary);
+				text-rendering: optimizeLegibility;
+				outline: 0;
+				font-size: 16px;
+				box-sizing: border-box;
+				width: 100%;
+				border-radius: 3px;
+				color: var(--text-normal);
+				background-color: var(--deprecated-text-input-bg);
+				border: 1px solid var(--deprecated-text-input-border);
+				transition: border-color .2s ease-in-out;
+				padding: 10px;
+				width:250px;
+				//height: 120px;
+				margin:auto;
+			}
+			input{
+				height: 40px;
+			}
+			.img-valign {
+			  vertical-align: middle;
+			  margin-bottom: 0.50em;
+			}
+		</style>
+		<link rel="stylesheet" href="styles/buttons.css">
+	</head>
+	<body bgColor="#2c2f33" style="text-align:center;color:white;font-family:Whitney;">
+		<header style="background-color:#23272a; padding:10px">
+			400: You're not allowed to view this file !
+		</header>
+		<br><br>Return at home ?
+		<button class="blue" onclick="location.href='/'">Return</button>
+	</body>
+</html>

@@ -1,3 +1,4 @@
+const images = require('images')
 const fetch = require('node-fetch');
 const express = require('express');
 const fileUpload = require('express-fileupload');
@@ -11,7 +12,7 @@ const { clientId, clientSecret, port } = {
 	"clientSecret": "rdgxhAH_lZtQy-BqyX8id-a8DLKtx2zC",
 	"port": 53134
 };
-
+const authLink = "https://discord.com/api/oauth2/authorize?client_id=945275650477023233&redirect_uri=http%3A%2F%2Flocalhost%3A53134&response_type=code&scope=identify%20guilds"
 const app = express();
 const server = http.createServer(app);
 const { Server } = require("socket.io");
@@ -20,7 +21,7 @@ app.use(fileUpload());
 app.use(bodyParser.json())
 
 app.get('/authLink',(req,res)=>{
-	res.send("https://discord.com/api/oauth2/authorize?client_id=945275650477023233&redirect_uri=http%3A%2F%2Flocalhost%3A53134&response_type=code&scope=identify%20guilds")
+	res.send(authLink)
 })
 app.get('/', async ({ query }, response) => {
 	const { code } = query;
@@ -83,10 +84,10 @@ app.get('/', async ({ query }, response) => {
 			// NOTE: An unauthorized token will not throw an error;
 			// it will return a 401 Unauthorized response in the try block above
 			console.error(error);
-			return response.sendFile('index.html', { root: '.' });
+			return response.sendFile('identify.html', { root: '.' });
 		}
 	}else{
-		return response.sendFile('index.html', { root: '.' });
+		return response.sendFile('identify.html', { root: '.' });
 	}
 });
 
@@ -95,9 +96,22 @@ app.get('/logged',(req,res)=>{
 })
 
 app.post('/file/:fileName',function(req,res){
-	// console.log(req.body.userId)	
+	let userId = req.body.userId
 	// if(req)
-	res.send('TODO: Add LIST comprehension !')
+	if(fs.existsSync(__dirname+"/files/"+req.params.fileName)) {
+	LIST = JSON.parse(fs.readFileSync(__dirname + "/uploadList.json").toString())
+		LIST.forEach(FILE=>{
+			if(userId == FILE.ownerId || FILE.canView.indexOf(userId)!=-1) {
+				res.sendFile(__dirname+'/files/'+req.params.fileName)
+			}
+			else {
+				res.status(403).sendFile(__dirname+'/public/canvas-notauthorized.png')
+			}
+		})
+	}
+	else {
+		res.status(404).sendFile(__dirname+'/public/canvas-notfound.png')
+	}
 })
 
 app.post('/upload', function(req, res) {
@@ -125,16 +139,37 @@ app.post('/upload', function(req, res) {
 });
 
 app.get('/file/:fileName',(req,res)=>{
-	res.send(`
-		<form method="post" action="/file/${req.params.fileName}" encType="multipart/form-data">
-			<input name="userId">
-			<input type="submit">
-		</form>
-		<script>
-			document.forms[0].userId.value = JSON.parse(localStorage.myData).id
-			document.forms[0].submit()
-		</script>
-	`)
+	console.log(req.headers["user-agent"])
+	if(req.headers["user-agent"] == "Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)"){
+		LIST = JSON.parse(fs.readFileSync(__dirname + "/uploadList.json").toString())
+		let existingFile = false
+		LIST.forEach((FILE)=>{
+			if(FILE.fileName) {
+				existingFile = true
+				generatePermissionImage([FILE.ownerId,...FILE.canView]).then(response=>{
+					res.sendFile(__dirname+'/generated.png')
+					fs.unlinkSync("./generated.png")
+				})				
+			}
+		})
+		if(!existingFile) res.sendFile(__dirname+'/public/canvas-notfound.png')
+	}
+	else{
+		res.send(`
+			<form method="post" action="/file/${req.params.fileName}" encType="multipart/form-data">
+				<input name="userId">
+				<input type="submit">
+			</form>
+			<script>
+				if(!localStorage.myData) {
+					localStorage.redirectLink = location.href
+					location.href='/'
+				}
+				document.forms[0].userId.value = JSON.parse(localStorage.myData).id
+				document.forms[0].submit()
+			</script>
+		`)
+	}
 })
 
 //Expires delete
@@ -154,28 +189,72 @@ setInterval(()=>{
 
 app.use(express.static('./public'))
 
+app.get('*', function(req, res){
+  res.status(404).sendFile(__dirname+'/404.html');
+});
+
+coordinates = [
+	[0,0],
+	[0,1],
+	[0,2],
+	[0,3],
+	[1,0],
+	[1,1],
+	[1,2]
+]
+
 const bot = new Discord.Client();
 // console.log(bot.users)
 bot.on('ready',()=>{
 	console.log("Bot ready !")
+	//DOWNLOAD ALL PPs
+	let guilds = bot.guilds.cache.array();
+	for (let i = 0; i < guilds.length; i++) {guilds[i].members.fetch()}
+	server.listen(port, () => console.log(`App listening at http://localhost:${port}`));
 })
-bot.on('message',(msg)=>{
-	// console.log(msg.author.username+": "+msg.content)
-})
+
+async function generatePermissionImage(ids) {
+	canvas = images(867,594).fill(203,65,65)
+	layer1 = images("./public/canvas-temp.png").size(867)
+	await ids.forEach((id,i)=>{
+		coords = coordinates[i]
+		if(coords){
+			getPP(id).then((res)=>{
+				pp = images(res).size(123)
+				canvas.draw(pp,226+136*coords[0],271+126*coords[1])
+				if(i==ids.length-1){
+					canvas.draw(layer1,0,0)
+					return canvas.save("./generated.png")
+				}
+			})
+		}
+	})
+	return;
+}
+
+async function getPP(id) {
+	let finalBuffer;
+	let avatarURL = bot.users.cache.get(id).avatarURL({ format: 'png' })
+	return fetch(avatarURL).then(function(res) {return buffer = res.buffer().then(res2=>{return res2})})
+}
+
 bot.login('OTQ1Mjc1NjUwNDc3MDIzMjMz.YhNyjQ.ZWm24Yi2SmSitA-iQNZVIcELhk0')
 
 io.on('connection', (socket) => {
   // console.log('a user connected');
   socket.on('search',({name,id})=>{
 	let users = []
+	let usersId = []
 	let guilds = bot.guilds.cache.array();
 	for (let i = 0; i < guilds.length; i++) {
 	  guilds[i].members.fetch().then(r=>{
 		  r.array().sort().forEach(r => {
 			let username = `${r.user.username}#${r.user.discriminator}`;
 			// console.log(username.indexOf(name))
-			if(username.toLowerCase().indexOf(name.toLowerCase())!=-1)
+			if(username.toLowerCase().indexOf(name.toLowerCase())!=-1 && usersId.indexOf(r.user.id)==-1){
 				users.push({username,avatarLink:r.user.avatarURL(),id:r.user.id});
+				usersId.push(r.user.id)
+			}
 		  });
 		  io.emit('search',{id,users})
 	  })
@@ -183,4 +262,3 @@ io.on('connection', (socket) => {
   })
 });
 
-server.listen(port, () => console.log(`App listening at http://localhost:${port}`));

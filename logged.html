@@ -2,6 +2,7 @@
 	<head>
 		<script src="/socket.io/socket.io.js"></script>
 		<script>
+			if(!localStorage.myData) location.href = "/"
 			var socket = io();
 			const user = JSON.parse(localStorage.myData)
 			const avatarLink = `https://cdn.discordapp.com/avatars/${user.id}/${user.avatar}.webp?size=4096`
@@ -11,6 +12,18 @@
 				document.getElementById('name').innerText = user.username+"#"+user.discriminator
 				document.getElementById('userId').value = user.id
 				document.getElementById('usersList').innerHTML = 'Tapez au moins 3 lettres'
+				state = document.getElementById('state')
+				if(location.href.indexOf("error")!=-1) {
+					state.style.backgroundColor = '#ff000099'
+					state.style.border = '2px solid red'
+					state.innerText = 'Il y\'a eu une erreur !'
+				}
+				if(location.href.indexOf("successful")!=-1) {
+					state.style.backgroundColor = '#00ff0099'
+					state.style.border = '2px solid lime'
+					fileURI = location.origin+'/file/'+location.href.split('fileName=')[1]
+					state.innerHTML = 'Le fichier a bien été uploadé, et est disponible sur <a href="'+fileURI+'">'+fileURI+'</a>'
+				}
 				document.getElementById('searchBar').onkeydown = ()=>{
 					setTimeout(()=>{
 						document.getElementById('usersList').innerHTML = 'Tapez au moins 3 lettres'
@@ -130,7 +143,8 @@
 					font-style:bold;
 				"></span><br><br>
 			</div>
-		</header>
+		</header><br>
+		<span id="state"></span>
 		<form method="POST" action="/upload" encType="multipart/form-data" name="uploadForm"
 		onsubmit='submitting()'>
 			<input type="hidden" name="id" id="userId"><br><br>
