@@ -1,0 +1,379 @@
+{
+    "user": {
+        "id": "824287910513344542",
+        "username": "Florent Calabresi",
+        "avatar": "b6c4884db01f931f34cb7f52fee011e1",
+        "discriminator": "3992",
+        "public_flags": 64,
+        "flags": 64,
+        "banner": null,
+        "banner_color": "#6548FF",
+        "accent_color": 6637823,
+        "locale": "fr",
+        "mfa_enabled": true,
+        "premium_type": 1
+    },
+    "guilds": [
+        {
+            "id": "220503211667226624",
+            "name": "FunWise",
+            "icon": "a_b3ceb777a8c4163754c50c64fd7886a6",
+            "owner": false,
+            "permissions": 104189504,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED",
+                "DISCOVERABLE",
+                "PREVIEW_ENABLED",
+                "MEMBER_PROFILES",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "6546640448"
+        },
+        {
+            "id": "336222537266626562",
+            "name": "La grande Nation",
+            "icon": "59793cac9d2c876e17bb29a06ee06783",
+            "owner": false,
+            "permissions": 108514881,
+            "features": [
+                "HAD_EARLY_ACTIVITIES_ACCESS"
+            ],
+            "permissions_new": "1071702855233"
+        },
+        {
+            "id": "459327790597013524",
+            "name": "TrixCMS - V.2.",
+            "icon": "ef6db43a8cffc06c00e02e3eb44e1d93",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "595235640044552223",
+            "name": "Sans prise de tech",
+            "icon": "05b16f15e9d42328dfbb68be4f07f7ae",
+            "owner": false,
+            "permissions": 104193601,
+            "features": [
+                "INVITE_SPLASH",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "THREADS_ENABLED",
+                "ANIMATED_BANNER",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "VANITY_URL"
+            ],
+            "permissions_new": "1071698533953"
+        },
+        {
+            "id": "636497059838558223",
+            "name": "F ʀ ᴀ ᴢ ɪ ᴏ ɴ Z",
+            "icon": "06fcbc332e76fc8596c76f9e2acf6ecf",
+            "owner": false,
+            "permissions": 662564423,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED",
+                "MEMBER_PROFILES",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "969177689671"
+        },
+        {
+            "id": "759830892595249153",
+            "name": "🎀𝙇𝙞𝙫𝙞𝙣𝙜 𝙍𝙤𝙤𝙢🎀",
+            "icon": "a_de0de535835f82ee2f5c2c7d84930b36",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "INVITE_SPLASH",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "THREADS_ENABLED",
+                "ANIMATED_BANNER",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "VANITY_URL"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "802070964287963177",
+            "name": "Café Des Devs",
+            "icon": "a_b36f88083a0d17fcc98ea4bbe10b9c39",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "INVITE_SPLASH",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "THREADS_ENABLED",
+                "ANIMATED_BANNER",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS",
+                "ANIMATED_ICON",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "VANITY_URL"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "818531792369614918",
+            "name": "Wenkop Project",
+            "icon": "2e1250a23e499ca296cd2fce7fd425c0",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "841811190153216041",
+            "name": "FrazionZ • Wiki",
+            "icon": null,
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "862294203416969296",
+            "name": "Zelenia.FR",
+            "icon": "43d85c9a4984f4aa16068aaa6f79aae1",
+            "owner": false,
+            "permissions": 53866048,
+            "features": [
+                "INVITE_SPLASH",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "THREADS_ENABLED",
+                "ANIMATED_BANNER",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS",
+                "ANIMATED_ICON",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "VANITY_URL"
+            ],
+            "permissions_new": "2063785651776"
+        },
+        {
+            "id": "871831796050964590",
+            "name": "Waves Privates",
+            "icon": "676970df2ef0e47dab7b9b123842fa6d",
+            "owner": false,
+            "permissions": 37080640,
+            "features": [],
+            "permissions_new": "762393775680"
+        },
+        {
+            "id": "874354706292568165",
+            "name": "🍕┊ Coffee' Tilly •.¸",
+            "icon": "a_d9f64c6a9ef34d1b2b12c9d77bbfcf79",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "880817738350743643",
+            "name": "Communauté de Minocraft",
+            "icon": "8f20272e728a0467656568fdc7760c43",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "968619314753"
+        },
+        {
+            "id": "894614211118899230",
+            "name": "Le Monde de Roxas",
+            "icon": "a9639ddbfa71bf7f5faff22784057e63",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "PREVIEW_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "920728324035198988",
+            "name": "❤Love&Dreams🌙",
+            "icon": "a_269a16afe2b4b0f788e2330ffb8fdabc",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "ROLE_ICONS",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "BANNER",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "922147361726296064",
+            "name": "𝙲𝚑𝚒𝚕𝚕𝚒𝚗𝚐 𝚟𝚒𝚋𝚎𝚜",
+            "icon": "a_7498569e13871921176f373d135bd14a",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "922608500054569020",
+            "name": "❤ chill and love ☃",
+            "icon": "815d1d2648eae4ed1b79a188fd99c9ff",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "925789709203013682",
+            "name": ". . ☕・ Choka'Shop",
+            "icon": "cd40ae9435b28aaa6b09e0c1a7767db8",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "939975626339786793",
+            "name": "Tannière Des Hiboux",
+            "icon": "77a5ef4e296a609504c1120e7cea706c",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "940736752371527760",
+            "name": "Love& compagnie",
+            "icon": "f30903e735ac2ac24acf9f84135045fd",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "943641874390986794",
+            "name": "Serveur de Dev",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "943859391977885727",
+            "name": "Bot Essaie",
+            "icon": null,
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        }
+    ]
+}

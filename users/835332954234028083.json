@@ -1,0 +1,829 @@
+{
+    "user": {
+        "id": "835332954234028083",
+        "username": "Polaire",
+        "avatar": "a_06fe321217b0fb5641ceb85bb2d7ee4c",
+        "discriminator": "2698",
+        "public_flags": 0,
+        "flags": 0,
+        "banner": "a_84a87beedd3c30d40d22615af4ac8701",
+        "banner_color": null,
+        "accent_color": null,
+        "locale": "fr",
+        "mfa_enabled": true,
+        "premium_type": 2
+    },
+    "guilds": [
+        {
+            "id": "164080359871348736",
+            "name": "Divine: Bubbleland",
+            "icon": "a_631caeca44a0586f9cba523cc1fccef9",
+            "owner": false,
+            "permissions": 37064192,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "DISCOVERABLE",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "968552189440"
+        },
+        {
+            "id": "178597763611754496",
+            "name": "Village Fufu",
+            "icon": "dbd11aa93318b2186ad8f3ae03084621",
+            "owner": false,
+            "permissions": 1714933313,
+            "features": [],
+            "permissions_new": "1073309273665"
+        },
+        {
+            "id": "285459844037607424",
+            "name": "Visual Creator Community - VCC",
+            "icon": "a_ac964323ce79019a9ee0faf707e42b98",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "336222537266626562",
+            "name": "La grande Nation",
+            "icon": "59793cac9d2c876e17bb29a06ee06783",
+            "owner": false,
+            "permissions": 108514881,
+            "features": [
+                "HAD_EARLY_ACTIVITIES_ACCESS"
+            ],
+            "permissions_new": "1071702855233"
+        },
+        {
+            "id": "441380604894773258",
+            "name": "ZelaX Corp",
+            "icon": "a_c2739425d8a71a6c9b6b56dfa8a15a92",
+            "owner": false,
+            "permissions": 104324673,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698665025"
+        },
+        {
+            "id": "561288326502416399",
+            "name": "Rinaorc",
+            "icon": "7056a24a5eac31a233d297c8477652c4",
+            "owner": false,
+            "permissions": 36769345,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "968551894593"
+        },
+        {
+            "id": "569784732452388885",
+            "name": "❀ pekaboo ˊ˗",
+            "icon": "0866098c5609e3badf3e19b239beb7f4",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "581946738831786025",
+            "name": "RDC 🌙",
+            "icon": "64975c4852de48ecfa7d405668161405",
+            "owner": false,
+            "permissions": 37031425,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071631371777"
+        },
+        {
+            "id": "595738125595050024",
+            "name": "Art Club",
+            "icon": "a_fae624e45f5952ee8fdcc2335b394668",
+            "owner": false,
+            "permissions": 104189504,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_SUBSCRIPTIONS_ENABLED",
+                "ROLE_ICONS",
+                "CREATOR_MONETIZABLE",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "VIP_REGIONS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PARTNERED",
+                "ANIMATED_BANNER",
+                "DISCOVERABLE",
+                "THREADS_ENABLED",
+                "COMMERCE",
+                "ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE"
+            ],
+            "permissions_new": "1071698529856"
+        },
+        {
+            "id": "636497059838558223",
+            "name": "F ʀ ᴀ ᴢ ɪ ᴏ ɴ Z",
+            "icon": "06fcbc332e76fc8596c76f9e2acf6ecf",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "SEVEN_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "968619314753"
+        },
+        {
+            "id": "662641513372712990",
+            "name": "Crow_tempest",
+            "icon": "7a499840e83adc4b2a7a90bd9d8ebad7",
+            "owner": false,
+            "permissions": 104324673,
+            "features": [],
+            "permissions_new": "1071698665025"
+        },
+        {
+            "id": "671313137550753830",
+            "name": "BALO",
+            "icon": "a_27b4663f6223926b205ece9682c83c91",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "VANITY_URL",
+                "BANNER",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "VIP_REGIONS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PARTNERED",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "DISCOVERABLE"
+            ],
+            "permissions_new": "968619314753"
+        },
+        {
+            "id": "699691560459042898",
+            "name": "La Taverne du Design",
+            "icon": "a_4f6314d0f65c505a3428ffde73997015",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "DISCOVERABLE"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "710143961066635274",
+            "name": "MisuCookie Art",
+            "icon": "4ae5c509996cbb1c1199737069931811",
+            "owner": false,
+            "permissions": 104324673,
+            "features": [
+                "INVITE_SPLASH",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON"
+            ],
+            "permissions_new": "1071698665025"
+        },
+        {
+            "id": "720296985143279776",
+            "name": "Révolution Pub",
+            "icon": "a_a08f7e332806be962433c97fc6daf0b8",
+            "owner": false,
+            "permissions": 104189441,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "DISCOVERABLE"
+            ],
+            "permissions_new": "6546640385"
+        },
+        {
+            "id": "720578647399989341",
+            "name": "BalanceTonLien",
+            "icon": "a_e2689ba7a6923d55c202c0ddf4c5c8e6",
+            "owner": false,
+            "permissions": 37080577,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "COMMERCE",
+                "DISCOVERABLE"
+            ],
+            "permissions_new": "968552205825"
+        },
+        {
+            "id": "727501056694812772",
+            "name": "L'île des artistes",
+            "icon": "ffdb53a500532bbfce306430173e7a65",
+            "owner": false,
+            "permissions": 104189504,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "DISCOVERABLE",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698529856"
+        },
+        {
+            "id": "732311394879406192",
+            "name": "𓂃 🏖 ପ Decorations For Servers ; #35K ࿐",
+            "icon": "a_5af8f03453698e2bf02e10f398854b08",
+            "owner": false,
+            "permissions": 103927297,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "VIP_REGIONS",
+                "PARTNERED",
+                "ANIMATED_BANNER",
+                "DISCOVERABLE",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "829032615425"
+        },
+        {
+            "id": "770469059405414421",
+            "name": "Mashiro's Art Night Market︱Sell & Buy Art | Commission | Night Market",
+            "icon": "79cfb5f984922221a4785a6ca9c7351b",
+            "owner": false,
+            "permissions": 36769345,
+            "features": [
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "4331736641"
+        },
+        {
+            "id": "781778541175898122",
+            "name": "︰🍬 ﹕Tootsie⌝ ｡invite rewards!!",
+            "icon": "a_40f06d6a60f4e9a7feffa38bcf9585c4",
+            "owner": false,
+            "permissions": 37080641,
+            "features": [
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "DISCOVERABLE",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1002911944257"
+        },
+        {
+            "id": "805861961816211486",
+            "name": "WelzDesign 👑",
+            "icon": "a_181ef3d57a51684e7f0e2e154577e7d2",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "INVITE_SPLASH",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "WELCOME_SCREEN_ENABLED",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "831135480938496011",
+            "name": "🌟 Aho's Hideout 🌟",
+            "icon": "e7bf31f5bc435d1c3faedf98098123f2",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "INVITE_SPLASH",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "834776123573141555",
+            "name": "🌸୧˖ ࣪⊹ ִֶָ  SugarBun Bun ‧₊˚࣪⊹",
+            "icon": "db84eca0fb4d35012379cb68176ee9fc",
+            "owner": false,
+            "permissions": 37084993,
+            "features": [
+                "COMMUNITY",
+                "NEWS",
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS"
+            ],
+            "permissions_new": "1071631425345"
+        },
+        {
+            "id": "835994290093424671",
+            "name": "🛍・Ṩupermarché Publicitaires™・1.2k",
+            "icon": "a_be05701967b1f72da72b9ddb6413d643",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "DISCOVERABLE"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "838367178826317844",
+            "name": "KoyakoART",
+            "icon": "9c508ad32103ab71da615d4c6fa8e345",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "860966736593551430",
+            "name": "SafePlace.",
+            "icon": "a_dd16330e424e0cfe666d3d6b4da375bd",
+            "owner": false,
+            "permissions": 37080640,
+            "features": [
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "1065188970048"
+        },
+        {
+            "id": "860985519043117066",
+            "name": "Wonder Arts 🌺",
+            "icon": "a_fa480f6d4bdb8b735b0df49c4f80132b",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "862294203416969296",
+            "name": "Zelenia.FR",
+            "icon": "43d85c9a4984f4aa16068aaa6f79aae1",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "NEW_THREAD_PERMISSIONS",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "VANITY_URL",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_BANNER",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "871831796050964590",
+            "name": "Waves Privates",
+            "icon": "676970df2ef0e47dab7b9b123842fa6d",
+            "owner": false,
+            "permissions": 37080640,
+            "features": [],
+            "permissions_new": "762393775680"
+        },
+        {
+            "id": "874354706292568165",
+            "name": "🍕┊ Coffee' Tilly •.¸",
+            "icon": "a_d9f64c6a9ef34d1b2b12c9d77bbfcf79",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "NEW_THREAD_PERMISSIONS",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "879445439546540034",
+            "name": "♡. °⊹ Trishia Bakery! ✧𓂃𓏲࣪ .˖࣪ʚ",
+            "icon": "a_a323ac919c7c72621e4651cfe90b3bab",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "880817738350743643",
+            "name": "Communauté de Minocraft",
+            "icon": "8f20272e728a0467656568fdc7760c43",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "894614211118899230",
+            "name": "Le Monde de Roxas",
+            "icon": "a9639ddbfa71bf7f5faff22784057e63",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "913067280693334056",
+            "name": "Gokiing Studios",
+            "icon": "7369de2d96025269a849b0a0311f26a9",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "920728324035198988",
+            "name": "❤Love&Dreams🌙",
+            "icon": "a_269a16afe2b4b0f788e2330ffb8fdabc",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "INVITE_SPLASH",
+                "PRIVATE_THREADS",
+                "BANNER",
+                "MEMBER_PROFILES",
+                "COMMUNITY",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ROLE_ICONS",
+                "ANIMATED_ICON",
+                "SEVEN_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "925122279355056149",
+            "name": "🎨┆CHRIS GRAPH",
+            "icon": "a_a49d04dffe4de698c3523bbedb5a8185",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "925789709203013682",
+            "name": ". . ☕・ Choka'Shop",
+            "icon": "cd40ae9435b28aaa6b09e0c1a7767db8",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "937134716438605855",
+            "name": "Serveur de 🍟﹢˚Choka ᡴ੭",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "938231190295556106",
+            "name": "Serveur de 🍟﹢˚Choka ᡴ੭",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "938232575938429040",
+            "name": "Serveur de 🍟﹢˚Choka ᡴ੭",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "938460325026615328",
+            "name": "Modèle Chilling Vibes",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "938460934136025138",
+            "name": "Serveur de 🍟﹢˚Choka ᡴ੭",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "939975626339786793",
+            "name": "Tannière Des Hiboux",
+            "icon": "77a5ef4e296a609504c1120e7cea706c",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "940233959349035118",
+            "name": "Serveur de 𖠗-_ Seo June ★",
+            "icon": null,
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "940939095314677791",
+            "name": "Serveur de 🍟﹢˚Choka ᡴ੭",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "943859391977885727",
+            "name": "Bot Essaie",
+            "icon": null,
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        }
+    ]
+}

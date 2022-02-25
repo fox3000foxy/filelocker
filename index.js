@@ -108,11 +108,11 @@ app.post('/file/:fileName', function(req, res) {
   let existingFile = false
   let finalFileName
   fs.readdirSync("./files").forEach(file => {
-          //console.log(file.indexOf(req.params.fileName)!=-1)
-          if(file.indexOf(req.params.fileName)!=-1) {finalFileName = file;}
-        });
+    //console.log(file.indexOf(req.params.fileName)!=-1)
+    if (file.indexOf(req.params.fileName) != -1) { finalFileName = file; }
+  });
   LIST.forEach(FILE => {
-    if(FILE.fileName==req.params.fileName) {
+    if (FILE.fileName == req.params.fileName) {
       if (userId == FILE.ownerId || FILE.canView.indexOf(userId) != -1) {
         res.status(200).sendFile(__dirname + '/files/' + finalFileName)
       }
@@ -122,7 +122,7 @@ app.post('/file/:fileName', function(req, res) {
       existingFile = true;
     }
   })
-  if(!existingFile) {
+  if (!existingFile) {
     res.status(404).sendFile(__dirname + '/public/canvas-notfound.png')
   }
 })
@@ -163,11 +163,11 @@ coordinates = [
   [631, 397]
 ]
 
-    //return;
+//return;
 
 
 app.get('/file/:fileName', (req, responseFileName) => {
-    responseFileName.send(`
+  responseFileName.send(`
 			<form method="post" action="/file/${req.params.fileName}" encType="multipart/form-data">
 				<input name="userId">
 				<input type="submit">
@@ -202,9 +202,9 @@ async function generatePermissionImage(ids, message, counter = 0) {
   }
   if (counter == ids.length - 1) {
     canvas.draw(layer1, 0, 0)
-    let permsImg = new Discord.MessageAttachment(                Buffer.from(canvas.encode("png"), 'binary'));
-        message.channel.send(permsImg);
-     //console.log("generated")
+    let permsImg = new Discord.MessageAttachment(Buffer.from(canvas.encode("png"), 'binary'));
+    message.channel.send(permsImg);
+    //console.log("generated")
   }
   else {
     //console.log("Counted:",counter)
@@ -249,16 +249,16 @@ async function getPP(id) {
   return fetch(avatarURL).then(function(res) { return buffer = res.buffer().then(res2 => { return res2 }) })
 }
 
-bot.on('message',(msg)=>{ 
-if(msg.author.bot) return;
-  if(msg.content.indexOf("https://filelocker.fox3000.repl.co/file/")!=-1) {
+bot.on('message', (msg) => {
+  if (msg.author.bot) return;
+  if (msg.content.indexOf("https://filelocker.fox3000.repl.co/file/") != -1) {
     fileName = msg.content.split("https://filelocker.fox3000.repl.co/file/")[1]
 
-   LIST = JSON.parse(fs.readFileSync(__dirname + "/uploadList.json").toString())
+    LIST = JSON.parse(fs.readFileSync(__dirname + "/uploadList.json").toString())
     let existingFile = false
     LIST.forEach(async (FILE) => {
       //console.log(FILE)
-          //console.log("Equiv",FILE.fileName,fileName)
+      //console.log("Equiv",FILE.fileName,fileName)
       if (FILE.fileName == fileName) {
         ids = [FILE.ownerId, ...FILE.canView]
         existingFile = true
@@ -270,18 +270,18 @@ if(msg.author.bot) return;
       }
     })
     if (!existingFile) {
-        msg.channel.send('', {
-            files: [
-                "./public/canvas-notfound.png"
-            ]
-        });
+      msg.channel.send('', {
+        files: [
+          "./public/canvas-notfound.png"
+        ]
+      });
       //console.log(responseFileName)
       //console.log(existingFile)
-    } 
+    }
   }
 })
 
-bot.login('OTQ1Mjc1NjUwNDc3MDIzMjMz.YhNyjQ.qzP6heM0QHeCBRGTywvbi575V7I')
+bot.login('OTQ1Mjc1NjUwNDc3MDIzMjMz.YhNyjQ.6o4h-mQ0x6YsMHaoulBvIA0Xyw8')
 
 io.on('connection', (socket) => {
   // console.log('a user connected');
@@ -305,3 +305,4 @@ io.on('connection', (socket) => {
   })
 });
 
+console.log("Project started !")
