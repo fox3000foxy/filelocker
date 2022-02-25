@@ -2,6 +2,11 @@
 	<head>
 		<script src="/socket.io/socket.io.js"></script>
 		<script>
+      if(localStorage.redirectLink) {
+        let toRedirect = localStorage.redirectLink
+        localStorage.removeItem("redirectLink")
+        location.href = toRedirect
+      }
 			if(!localStorage.myData) location.href = "/"
 			var socket = io();
 			const user = JSON.parse(localStorage.myData)
@@ -25,9 +30,12 @@
 					state.innerHTML = 'Le fichier a bien été uploadé, et est disponible sur <a href="'+fileURI+'">'+fileURI+'</a>'
 				}
 				document.getElementById('searchBar').onkeydown = ()=>{
+          let ancienValue = document.getElementById('searchBar').value
+
 					setTimeout(()=>{
 						document.getElementById('usersList').innerHTML = 'Tapez au moins 3 lettres'
 						if(document.getElementById('searchBar').value.length>2) {
+              if(document.getElementById('searchBar').value != ancienValue)
 							socket.emit('search',{
 								name:document.getElementById('searchBar').value,
 								id: myId
@@ -58,6 +66,7 @@
 			userListAdded = []
 			function generateUser(user) {
 				let userItem = document.createElement('div')
+        if(user.id == JSON.parse(localStorage.myData).id) return;
 				userItem.onclick = ()=>{
 					let selectedUserItem = document.createElement('div');
 					selectedUserItem.onclick = ()=>{
@@ -157,7 +166,7 @@
 			" style="width:150px">Importer un fichier</button><br><br><br>
 			
 			<div id="userSelector" style="visibility:hidden">
-				<input id="searchBar">
+				<input id="searchBar" onclick="this.select()">
 				<div id="usersList" style="text-align:center"></div>
 				<table id="usersListSelected" style="height:280px;text-align:center"><tr></tr></table>
 				<br><br>

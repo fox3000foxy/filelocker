@@ -1,0 +1,519 @@
+{
+    "user": {
+        "id": "865980386030911538",
+        "username": "🔱•|Hollyshlt|•🔱",
+        "avatar": "f3474db7c83e80687534b65303f7a437",
+        "discriminator": "7781",
+        "public_flags": 256,
+        "flags": 256,
+        "banner": null,
+        "banner_color": "#0D4F7F",
+        "accent_color": 872319,
+        "locale": "fr",
+        "mfa_enabled": true
+    },
+    "guilds": [
+        {
+            "id": "113756088230215687",
+            "name": "Minecraft-France",
+            "icon": "a_61a5f89d60c2899a448a63ed4c12561a",
+            "owner": false,
+            "permissions": 104188992,
+            "features": [
+                "BANNER",
+                "ROLE_ICONS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "THREADS_ENABLED",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "INVITE_SPLASH",
+                "COMMUNITY",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "VANITY_URL",
+                "NEW_THREAD_PERMISSIONS",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "VIP_REGIONS",
+                "PARTNERED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "521942715456"
+        },
+        {
+            "id": "353671755493277697",
+            "name": "🍨 Battle Adventure 🍨",
+            "icon": "703fe652ae81489bd157c64fba307784",
+            "owner": false,
+            "permissions": 37084737,
+            "features": [
+                "BANNER",
+                "ROLE_ICONS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "THREADS_ENABLED",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "COMMUNITY",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "143918489153"
+        },
+        {
+            "id": "608371614001791014",
+            "name": "Aventuros | Ancien serveur",
+            "icon": "a_c6e3bd82530452ac61ac0e8981b180d1",
+            "owner": false,
+            "permissions": 117440320,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "COMMUNITY",
+                "PREVIEW_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071711780672"
+        },
+        {
+            "id": "630331220290437131",
+            "name": "🌴TROPICAL PUB🌴 | 🇫🇷",
+            "icon": "c53f71abfed65909c12d9a47ad7a13ba",
+            "owner": false,
+            "permissions": 104324673,
+            "features": [],
+            "permissions_new": "1071698665025"
+        },
+        {
+            "id": "643432790490218496",
+            "name": "Picsounium | EN DEV",
+            "icon": "a_cc820264c44b3fc9cddd8af75b956d9c",
+            "owner": false,
+            "permissions": 104189761,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS"
+            ],
+            "permissions_new": "1071698530113"
+        },
+        {
+            "id": "682258946160984278",
+            "name": "Nocturn 🌓",
+            "icon": "a_209a3b90470a2c05f9fac10fbc0d15d0",
+            "owner": false,
+            "permissions": 36817921,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "COMMUNITY",
+                "PREVIEW_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1065188707329"
+        },
+        {
+            "id": "792801655464525844",
+            "name": "BlackRaven (R.I.P)",
+            "icon": "a45a10d0020ee1b205cd413232e74f3f",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "796699016858435586",
+            "name": "HollySky - Skyblock",
+            "icon": "033c70575e3125d90ae24c6617ba5deb",
+            "owner": false,
+            "permissions": 37080577,
+            "features": [
+                "BANNER",
+                "ROLE_ICONS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "THREADS_ENABLED",
+                "ANIMATED_BANNER",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "COMMUNITY",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "VANITY_URL",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "689379331585"
+        },
+        {
+            "id": "808744785388372019",
+            "name": "Arietis's Gaming",
+            "icon": "8ff01fa5870a06c5fa8c2eb392c6607c",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "837894011611906069",
+            "name": "👑 𝐑𝐨𝐲𝐚𝐥𝐭𝐲 👑",
+            "icon": "a_1a7ca9832b2d002476d25da7970cb708",
+            "owner": false,
+            "permissions": 37079617,
+            "features": [
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "6479530561"
+        },
+        {
+            "id": "839574173403185182",
+            "name": "Twitch Followers  #soonComeBack",
+            "icon": "a127fb4fcdbdeb85e213040cc7b80f5e",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "BANNER",
+                "ROLE_ICONS",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "THREADS_ENABLED",
+                "ANIMATED_BANNER",
+                "PRIVATE_THREADS",
+                "MEMBER_PROFILES",
+                "INVITE_SPLASH",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "COMMUNITY",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "VANITY_URL",
+                "NEW_THREAD_PERMISSIONS",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "521942715969"
+        },
+        {
+            "id": "846403274470457354",
+            "name": "🌋 Ezurium | V3 DEV ☄",
+            "icon": "4d824fdd3aaf4dc4df1cd33683d248f7",
+            "owner": false,
+            "permissions": 37047873,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "COMMUNITY",
+                "PREVIEW_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "828965736001"
+        },
+        {
+            "id": "869314723269713981",
+            "name": "Communauté LAirHisson",
+            "icon": "a_897e8d6f645cf154b04dd46398090ccd",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "ENABLED_DISCOVERABLE_BEFORE",
+                "ANIMATED_ICON",
+                "COMMUNITY",
+                "THREADS_ENABLED",
+                "DISCOVERABLE",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "693741407809"
+        },
+        {
+            "id": "871041439864356905",
+            "name": "BlackRaven",
+            "icon": "cfc93db69616b256dedd3b0766cbc739",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "872475563447693423",
+            "name": "serv test bots personaliser",
+            "icon": "91b5f126744cbabe5e791e542102d7cd",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "878312119563600013",
+            "name": "Picsounium staff",
+            "icon": "8ea7ad125628c7a50995eba4cc6391e9",
+            "owner": false,
+            "permissions": 104320576,
+            "features": [],
+            "permissions_new": "1071698660928"
+        },
+        {
+            "id": "886249709231038505",
+            "name": "HeliCraft - Mini Jeux",
+            "icon": "2312a1a911d7e8c60d51a866c445c467",
+            "owner": false,
+            "permissions": 103894593,
+            "features": [],
+            "permissions_new": "1069550751297"
+        },
+        {
+            "id": "886595659325669427",
+            "name": "Aventuros - Staff | Ancien serveur",
+            "icon": "08f1510c064e1e874436fe9358ce96d5",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "888786695586197574",
+            "name": "Bevonia V2",
+            "icon": "a_0950e085f5d7ed5dc2db0be014000ce2",
+            "owner": false,
+            "permissions": 104324673,
+            "features": [
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "COMMUNITY",
+                "PREVIEW_ENABLED"
+            ],
+            "permissions_new": "895605005889"
+        },
+        {
+            "id": "894614211118899230",
+            "name": "Le Monde de Roxas",
+            "icon": "a9639ddbfa71bf7f5faff22784057e63",
+            "owner": false,
+            "permissions": 70635073,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "INVITE_SPLASH",
+                "NEWS",
+                "THREE_DAY_THREAD_ARCHIVE"
+            ],
+            "permissions_new": "2218118721"
+        },
+        {
+            "id": "895002031167770714",
+            "name": "Aventuros",
+            "icon": "3ed7e185888b38f85352949e4344c303",
+            "owner": false,
+            "permissions": 536870854,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "539555266502"
+        },
+        {
+            "id": "895004182627614720",
+            "name": "Aventuros - Staff",
+            "icon": "08f1510c064e1e874436fe9358ce96d5",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "895024528542023750",
+            "name": "Commu d'Holly❃Gold",
+            "icon": "63d188132e5e1c57dc43157e81196146",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "898308929946284033",
+            "name": "Textures Cloud",
+            "icon": "033fa13eaceceb5ed0d87dbb66989a8a",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "901576410374758420",
+            "name": "Vixen's Studios",
+            "icon": "b31aa789d614373888a02d1937ac8fcd",
+            "owner": false,
+            "permissions": 0,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "0"
+        },
+        {
+            "id": "902179213119983626",
+            "name": "Eldia[Battle Adventure]",
+            "icon": "6e35a4410c05bb920f82040529804252",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "908145118119333998",
+            "name": "FLD",
+            "icon": "9498ae9dbe36fd839107d5f731b8617b",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "920678276249309184",
+            "name": "Akroya Mc",
+            "icon": "29f9221edee386258f7aaff5b86ad771",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "922527474334724237",
+            "name": "La Hess",
+            "icon": "d7dc0447120adaa63fd7836bf2889659",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "923233165152243712",
+            "name": "✨ Naiffie ✨",
+            "icon": "9c8096e9e50000a7aa008c0ba43025c3",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "931153593216679976",
+            "name": "BlackRaven-Bevonia",
+            "icon": "dd162ca1bdb34c661c281976d0a8183b",
+            "owner": true,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "933052482454712351",
+            "name": "Data Pub",
+            "icon": "baa04593a29ea1dd18d5c99e7d372dca",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "933400763252768768",
+            "name": "Atelia | Java",
+            "icon": "c4e41bc588d095caf45ae3fcf5f547cd",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "COMMUNITY",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "936909934547853332",
+            "name": "FR | 𝕃𝕠𝕣𝕕 ℙ𝕦𝕓 [0,17k]",
+            "icon": "182f67839e4b1a3b8c3fcc309907d796",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "WELCOME_SCREEN_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "COMMUNITY",
+                "PREVIEW_ENABLED",
+                "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "943217245641920552",
+            "name": "Légniacube",
+            "icon": "e2d9d716b374ec60d30a6d1b2a3afaf7",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        }
+    ]
+}

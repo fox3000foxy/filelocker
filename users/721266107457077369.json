@@ -1,0 +1,575 @@
+{
+    "user": {
+        "id": "721266107457077369",
+        "username": "🦊・Revolt",
+        "avatar": "409dd9f0386ef882f7418e09db1968de",
+        "discriminator": "6537",
+        "public_flags": 256,
+        "flags": 256,
+        "banner": null,
+        "banner_color": "#ff702c",
+        "accent_color": 16740396,
+        "locale": "fr",
+        "mfa_enabled": true,
+        "premium_type": 1
+    },
+    "guilds": [
+        {
+            "id": "422112414964908042",
+            "name": "DraftBot Support",
+            "icon": "a_3dd55dadfcbd56d873098b2a2a3601d7",
+            "owner": false,
+            "permissions": 36817985,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ROLE_ICONS",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "DISCOVERABLE",
+                "ANIMATED_ICON",
+                "PRIVATE_THREADS",
+                "INVITE_SPLASH",
+                "BANNER",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS",
+                "MEMBER_PROFILES",
+                "COMMUNITY",
+                "COMMERCE",
+                "WELCOME_SCREEN_ENABLED",
+                "ENABLED_DISCOVERABLE_BEFORE"
+            ],
+            "permissions_new": "2184301633"
+        },
+        {
+            "id": "422125352991850496",
+            "name": "FoxPlay 🦊",
+            "icon": "02b2c8bb8669e87c00647d068ef82ad8",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "INVITE_SPLASH",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "694291912995373156",
+            "name": "🦊・Fox PUB",
+            "icon": "ffd3fd42526bb36e7b6d0b62c974934f",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "698822532467523605",
+            "name": "Blagues API",
+            "icon": "38b73ba25d72e19a0a91ee7a6bc6f613",
+            "owner": false,
+            "permissions": 37080641,
+            "features": [
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "1071631420993"
+        },
+        {
+            "id": "724307749323800637",
+            "name": "🐺・Eryst _loups",
+            "icon": "752c9ab84ac0d0d3e65de770b981feec",
+            "owner": false,
+            "permissions": 36769345,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ROLE_ICONS",
+                "SEVEN_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "PRIVATE_THREADS",
+                "INVITE_SPLASH",
+                "BANNER",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "MEMBER_PROFILES",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "934192156225"
+        },
+        {
+            "id": "757944023658004541",
+            "name": "Puppy’s world",
+            "icon": "6f618358f18177b2deaa1c27d15eee95",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "791382403779526676",
+            "name": "𝗦𝗧𝗜𝗔𝗟𝗔 | COMMUNAUTÉ",
+            "icon": "676c4da5bedec3d40589c4649d971a82",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "THREADS_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "810091118401552395",
+            "name": "getCodingKnowledge Official",
+            "icon": "19889c7b6550e6f8388b6af9e781e881",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "THREADS_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "811295083189501983",
+            "name": "Fermeture",
+            "icon": "7137380c2343c0164af1ec219a944a11",
+            "owner": false,
+            "permissions": 66561,
+            "features": [
+                "WELCOME_SCREEN_ENABLED"
+            ],
+            "permissions_new": "1065151955969"
+        },
+        {
+            "id": "815659285774073887",
+            "name": "La JoCorp",
+            "icon": "a_5bbf0c6914872495872c7dd587d825d3",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "THREADS_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "818175292635742258",
+            "name": "🇨🇵  DopeTonProjet",
+            "icon": "136236c075f98ec0447895c5fab902f2",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "DISCOVERABLE",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "NEWS",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "ENABLED_DISCOVERABLE_BEFORE"
+            ],
+            "permissions_new": "1069551046209"
+        },
+        {
+            "id": "825760704241991752",
+            "name": "CodingTime",
+            "icon": "12b9ee33d4532172b63dcf04dfa17548",
+            "owner": false,
+            "permissions": 37080641,
+            "features": [
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071631420993"
+        },
+        {
+            "id": "829018566128435290",
+            "name": "AdValidator - Support",
+            "icon": "90c63aded7eaa8400e76b7aee4c6fc3a",
+            "owner": false,
+            "permissions": 104193601,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "ANIMATED_ICON",
+                "INVITE_SPLASH",
+                "NEW_THREAD_PERMISSIONS",
+                "PREVIEW_ENABLED",
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "NEWS"
+            ],
+            "permissions_new": "831180365377"
+        },
+        {
+            "id": "838081309162733629",
+            "name": "Danyx - Serveur Communautaire [ FR ]",
+            "icon": "870a86837ef8b0f117215801116568fc",
+            "owner": false,
+            "permissions": 116907841,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "INVITE_SPLASH",
+                "WELCOME_SCREEN_ENABLED",
+                "ANIMATED_ICON",
+                "NEWS"
+            ],
+            "permissions_new": "934272294721"
+        },
+        {
+            "id": "841697308479586384",
+            "name": "Legends",
+            "icon": "fc42ae84906d1eef8bef1686b8fcf691",
+            "owner": false,
+            "permissions": 37031745,
+            "features": [
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "1065188921153"
+        },
+        {
+            "id": "845733906543411250",
+            "name": "TcheatEquipe",
+            "icon": "5643b607c2c03905a2ea92bd539832ac",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "858675296488259604",
+            "name": "Muzikae Support",
+            "icon": "6a7db1e70864bf2d7949f04041590946",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "NEW_THREAD_PERMISSIONS",
+                "THREADS_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "867107382038757387",
+            "name": "Emoji en pagaille",
+            "icon": "714369c17463dc93edaf33824a040a43",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "872161663762194512",
+            "name": "Tiger pub 🐯",
+            "icon": "71177cd05ec3f5d3525e046836feda6d",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "874325169114603632",
+            "name": "l'Atlantide",
+            "icon": "a_22adb2db575bbe6d7302b02da6ce2b4a",
+            "owner": false,
+            "permissions": 1446371009,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON"
+            ],
+            "permissions_new": "1073040711361"
+        },
+        {
+            "id": "885572437297750086",
+            "name": "𝒎𝒏𝒔𝒙",
+            "icon": "1b96036dd157fb38d6da332780d08eaa",
+            "owner": false,
+            "permissions": 251129415,
+            "features": [
+                "THREADS_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2171357097543"
+        },
+        {
+            "id": "886610221135450112",
+            "name": "Conway RP & community",
+            "icon": "a_fe59c190a1739431be2e1bb480ee25b4",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "THREADS_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEW_THREAD_PERMISSIONS",
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "886631972233949286",
+            "name": "💻・ClasiCode",
+            "icon": "a_d25cc7cc0cc27c0fd863e45511503144",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "NEWS",
+                "MEMBER_VERIFICATION_GATE_ENABLED"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "901370764060672020",
+            "name": "MC-modée-discord",
+            "icon": "01bd84c99e2c2378e9685b52a44fc921",
+            "owner": false,
+            "permissions": 2146959347,
+            "features": [],
+            "permissions_new": "1090921168883"
+        },
+        {
+            "id": "901576410374758420",
+            "name": "Vixen's Studios",
+            "icon": "b31aa789d614373888a02d1937ac8fcd",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "902499482510450708",
+            "name": "Bad︲Protect︲Support",
+            "icon": "a_35e210c48baea3738713a070b7127ff4",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "COMMUNITY",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "909013996764561428",
+            "name": "Dark manga - Serveur manga/anime [ FR ]",
+            "icon": "99450daf5394bf72ade6d077d4d264ed",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "911226368296120320",
+            "name": "les intellos 🧠",
+            "icon": "cae6ea22edd7f7ce9f518a036714981f",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "913780444741386251",
+            "name": "bariboo",
+            "icon": "4ca3712876b835dd0c66e255a0404e9c",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "922884054393716756",
+            "name": "Ralyx-serveur roleplay",
+            "icon": "7e5a261c6764b48c7e5262b0f9811354",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "923912206586880040",
+            "name": "Foxplay 2022",
+            "icon": "6e0d6e212728abf22997280cd5da1022",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "924110990738616341",
+            "name": "La commu d'enfer",
+            "icon": "f7e9dcd5863dae63fa972dd2af234a99",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "933497319012311070",
+            "name": "🤖・SUPPORT FOX BOT",
+            "icon": "bf68f941ca2b5f2fd1e73f6de964646f",
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "936363060036247653",
+            "name": "Eli Place",
+            "icon": "f7130f43cb8a76108114aa1c51293e34",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "937760775685148733",
+            "name": "Larajia Fox",
+            "icon": null,
+            "owner": false,
+            "permissions": 2147483647,
+            "features": [
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "2199023255551"
+        },
+        {
+            "id": "939509807080173568",
+            "name": "TA PUB™",
+            "icon": "6c0d9e0073b84a226cab7c6378fa734c",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "MEMBER_VERIFICATION_GATE_ENABLED",
+                "PREVIEW_ENABLED",
+                "COMMUNITY",
+                "WELCOME_SCREEN_ENABLED",
+                "NEWS"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "939616634157547560",
+            "name": "PSX Trading Plaza: Discord Edition",
+            "icon": "891700652cbb0357b16e36b8374defc2",
+            "owner": false,
+            "permissions": 104189505,
+            "features": [
+                "THREE_DAY_THREAD_ARCHIVE",
+                "INVITE_SPLASH",
+                "ANIMATED_ICON"
+            ],
+            "permissions_new": "1071698529857"
+        },
+        {
+            "id": "943134739202719754",
+            "name": "🎥︲CinéMax",
+            "icon": "29786c886523880927126d2433f18622",
+            "owner": false,
+            "permissions": 104320577,
+            "features": [
+                "EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT",
+                "NEWS",
+                "COMMUNITY"
+            ],
+            "permissions_new": "1071698660929"
+        },
+        {
+            "id": "944976698401779782",
+            "name": "Serveur de RobloxFou",
+            "icon": null,
+            "owner": false,
+            "permissions": 104189505,
+            "features": [],
+            "permissions_new": "1071698529857"
+        }
+    ]
+}

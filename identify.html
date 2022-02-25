@@ -45,18 +45,62 @@
 	</head>
 	<body bgColor="#2c2f33" style="text-align:center;color:white;font-family:Whitney;">
 		<header style="background-color:#23272a; padding:10px">
-			Bienvenue sur FileLocker ! Veuillez vous identifier pour commencer à partager vos fichiers en toute sécurité !
+			<b>Bienvenue sur FileLocker ! Gérez vous partage de fichiers en toute sécurité !</b></header>
+        <header style="background-color:#23272a; padding:10px;text-align:center;">
+<u>FileLocker ? C'est quoi ?</u>
+<br>
+<br>FileLocker est un site qui vous permet de partager des fichiers, à d'autre personnes.
+<br>Vous pouvez choisir également à qui vous voulez partager ces fichers.
+<br>
+<br>
+<br>
+<br><u>Comment ça marche ?</u>
+<br>
+<br>En fait, ce que fait FileLocker, c'est de verifier que votre compte Discord ait été choisi par l'émetteur du fichier à partager.
+<br> - Si vous êtes l'émetteur, il vous suffira de vous connecter, puis de séléctionner qui peut voir les messages en tapant le pseudo de la personne à qui l'envoyer.
+<br> - Si vous êtes le récépteur, vous avez de toute façon besoin d'un compte Discord pour accéder au fichier de l'émetteur, afin de vous identifier, et pouvoir vérifier que vous pouvez voir le fichier.
+<br>
+<br>
+<br><u>Intéressant... Et il faut nécessairement un compte Discord ?</u>
+<br>
+<br>Oui. Le site est prévu pour faire des partages de fichiers via Discord et pour Discord.
+<br>L'aventage, c'est que vous pouvez faire des partages sur un salon Discord que tout le monde utilise et dont tous le monde à accès.
+<br>
+<br>
+<br><u>Mais... Pour partager des fichiers, il y a les messages privés, où les groupes privés, non ?</u>
+<br>
+<br>En effet. Mais supposons que le destinataire ait sa messagerie privée Discord fermée au public, vous pouvez quand même lui envoyer le fichier de manière sécurisée.
+<br>Pour ce qui est des groupes privés, nous rappellons qu'il sont limités à 10 membres. FileLocker n'a pas de nombre de destinataires limités, vous pouvez donc envoyer vos fichers à autant de personnes que vous voulez.
+<br>
+<br>
+<br><u>Et il y a besoin de quelque chose pour partager mon fichier ?</u>
+<br>
+<br>Il vous faut juste le bot discord sur votre serveur, pour qu'il puisse récuperer la liste des membres, afin de définir les utilisateurs à qui envoyer le fichier.
+<br>Pour finir, sachez que le fait de vous identifier ne vous inscrit pas chez nous, c'est une identification temporaire, donc pas de mot de passe à retenir, juste celui de votre compte Discord.
+<br>
+<br>
+<br><u>Et si je trouve des bugs ? Je fais quoi ?</u>
+<br>
+<br>Si vous êtes témoins de bugs, où que vous avez des idées de rajouts, veuillez contacter <b>Vixen#8177</b> ou <b>RoxasYTB#1966</b>.
+<br>
+<br>
+<br>
+<br><b>À présent, si vous voulez utiliser nos services, veuillez vous identifiez en utilisant le bouton bleu ci-dessous.
+<br>Et nous vous remercions encore de nous faire confiance, merci d'utiliser FileLocker !</b>
 		</header>
 		<br>
 		<br>
-		<a id="login"><button class="blue">Vous identifier</button></a>
+		<a id="login"><button class="blue">Cliquez ici pour vous identifier</button></a>
 	</body>
 <script>
 fetch("/authLink")
 .then(res=>res.text())
 .then((resp)=>{
 	//console.log(resp)
-	document.getElementById("login").href = resp
+  if(!localStorage.myData)
+	  document.getElementById("login").href = resp
+  else
+    document.getElementById("login").href = "/logged"
 })
 function generateRandomString() {
 	let randomString = '';
@@ -76,7 +120,7 @@ function generateRandomString() {
 			const randomString = generateRandomString();
 			localStorage.setItem('oauth-state', randomString);
 
-			document.getElementById('login').href += `&state=${btoa(randomString)}`;
+			//document.getElementById('login').href += `&state=${btoa(randomString)}`;
 			return document.getElementById('login').style.display = 'block';
 		}
 
